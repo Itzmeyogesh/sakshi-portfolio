@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
 import { motion } from 'framer-motion';
-import Sidebar from './components/sidebar';
+import Sidebar from './components/Sidebar';
 
 import Home from './sections/Home';
 import About from './sections/About';
