@@ -1,9 +1,9 @@
 // src/sections/Projects.jsx
 import React from "react";
 import { motion } from "framer-motion";
-import chatImg from "../assets/chat-app.png";
-import tributeImg from "../assets/tribute-page.png";
-import signupImg from "../assets/signup-form.png";
+import chatImg from "../assets/Chat-app.png";
+import tributeImg from "../assets/Tribute-page.png";
+import signupImg from "../assets/Signup-form.png";
 
 const projectData = [
   {
