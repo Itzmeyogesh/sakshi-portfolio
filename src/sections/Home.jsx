@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDownToLine, Send, Github, Linkedin } from 'lucide-react';
 import { TypeAnimation } from 'react-type-animation';
+import profileImage from '../assets/profile.jpg'; // ✅ Correct image import
 
 const Home = () => {
   return (
@@ -12,9 +13,9 @@ const Home = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
-      {/* Profile Image */}
+      {/* ✅ Profile Image */}
       <img
-        src="/profile.jpg"
+        src={profileImage}
         alt="Sakshi Kale"
         className="w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full object-cover shadow-xl ring-4 ring-white/20 mb-4"
       />
