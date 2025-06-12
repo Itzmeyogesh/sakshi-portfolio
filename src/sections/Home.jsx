@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDownToLine, Send, Github, Linkedin } from 'lucide-react';
 import { TypeAnimation } from 'react-type-animation';
-import profileImage from '../assets/profile.jpg'; // ✅ Correct image import
+import profileImage from '../assets/Profile.jpg'; // ✅ Correct image import
 
 const Home = () => {
   return (
