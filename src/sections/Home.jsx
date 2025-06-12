@@ -49,7 +49,7 @@ const Home = () => {
       {/* Contact Info */}
       <div className="text-xs sm:text-sm text-white/80 space-y-1 mt-4">
         <p>📧 kalesakshi307@gmail.com | ☎ +91 9322171542</p>
-        <div className="flex justify-center gap-4 mt-2">
+        <div className="flex justify-center gap-3 mt-2">
           <a
             href="https://github.com/CodeDeveloper2004"
             target="_blank"
