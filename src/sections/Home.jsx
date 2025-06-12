@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <motion.header
       id="home"
-      className="min-h-[90vh] flex flex-col items-center justify-center text-center px-4 py-12 sm:py-16 bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl font-display mx-auto max-w-5xl"
+      className="min-h-fit flex flex-col items-center justify-center text-center px-4 py-4 sm:py-6 bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl font-display mx-auto max-w-5xl"
       initial={{ opacity: 0, y: -40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
