@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const experiences = [
   {
     title: "Web Developer Intern @ Technical One",
-    date: "March 2025 – Present",
+    date: "March 2025 – September 2025",
     location: "Pune, Maharashtra",
     points: [
       "Designed responsive web pages using React, HTML, CSS, and JavaScript.",
@@ -14,7 +14,7 @@ const experiences = [
   },
   {
     title: "HR Recruiter – Apprenticeship Program",
-    date: "Jan 2025 – Present",
+    date: "Jan 2025 – March 2025",
     location: "Chinchwad, Maharashtra",
     points: [
       "Sourced and recruited candidates for technical and vocational roles.",
